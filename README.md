@@ -2,6 +2,17 @@
 
 Primary domain: register **feature flags** aimed at future **AI rollout integration**, including optional structured metadata (`AiIntegrationHintsJson`).
 
+## Steps to build
+
+- Concept & scope: Defined the product idea for an AI-powered feature flags platform.
+- Environment & tooling: Set up development workflows, dependencies, and reproducible local/configuration patterns.
+- Domain modeling: Designed core entities, terminology, and relationships.
+- Quality assurance: Implemented unit tests.
+- Backend & business logic: Built APIs and domain rules for flags.
+- AI/automation: Authored scripts and integrations for tasks using AI.
+- Frontend: Delivered the web UI with clear UX for configuring flags
+- Documentation & handoff: Captured setup steps and architectural decisions
+
 ## User story
 
 As an **AI platform engineer**, I want a lightweight registry where I can define **feature flags** that will later drive AI rollout experiments (prompt templates, streaming behavior, safety gates), so that I can:
