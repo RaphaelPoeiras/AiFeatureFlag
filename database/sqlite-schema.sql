@@ -1,6 +1,3 @@
--- Reference schema mirrored by `SqliteDatabaseMigrator` (SQLite).
--- Useful if you want to inspect structure outside the application bootstrap.
-
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS Users (
